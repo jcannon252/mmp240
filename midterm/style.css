@@ -1,0 +1,199 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=PT+Sans&family=Quicksand:wght@300;400&display=swap');
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border:none;
+}
+
+#wrapper {
+	max-width: 1200px;
+  margin: 0 auto;
+  background-color: black;
+
+}
+
+head{
+  color: black;
+}
+
+main{
+  color:black;
+}
+
+
+header {
+	/* top right bottom left */
+  background:
+   url("logo.png") left top no-repeat, linear-gradient(90deg, rgba(0,0,0,1) 0, rgba( 255 ,0,0,1) 0, rgba(6,0,6,0) 57%),
+   url("trek.jpg") right top no-repeat;
+   padding: 2em;
+   padding-top: 10em;
+   font-family: Oswald;
+   background-color: black;
+}
+
+.lead {
+	color: white;
+  width:300px;
+
+}
+
+.lead p{
+  text-align: right;
+}
+
+
+ h1 img{
+  width:1200px;
+}
+
+header button {
+  background-color: #B20903;
+  background-image: url("play2.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  border-bottom: solid;
+  border-color: black;
+  padding: 10px;
+  padding-left: 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: Oswald;
+  color: white;
+
+}
+
+header button:hover{
+  color:black;
+  text-decoration: underline;
+
+}
+svg{
+  background-color: white;
+}
+
+
+nav{
+  background-color: #B20903;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 2em;
+  font-family: Oswald;
+
+
+}
+
+nav li{
+  display: inline;
+  border-right: solid 1px #fff;
+  padding: 0 1.5em;
+  text-decoration: none;
+  margin-left: 2em;
+}
+nav li:last-child{
+  border: none;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+
+
+nav a:hover{
+  color:#4287f5;
+  text-decoration: underline;
+}
+
+
+.col{
+  width:48%;
+  margin-left: 2%;
+  font-family: Quicksand;
+  color: white;
+}
+
+.col-left{
+  float:left;
+  color: white;
+  font-family: Quicksand;
+
+}
+
+.col-right{
+  float:right;
+  color: white;
+  font-family: Quicksand;
+}
+
+.show-info h3{
+  color: #B20903;
+  font-family: Quicksand;
+  margin-left: 0;
+
+}
+
+footer{
+  clear: both;
+}
+
+
+/* Episode Page */
+
+h2{
+  margin-left: 1em;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: Roboto;
+  color: white;
+}
+
+
+h3{
+  font-size: 1rem;
+  margin-left: 1.5em;
+  font-family: Roboto;
+  color: #B20903;
+
+
+
+
+
+}
+
+  .episode-card{
+    width:24%;
+    margin-left: 1%;
+
+}
+
+.episode-card p{
+  font-family: PT Sans;
+  font-size: .6em;
+  color: white;
+}
+.episode-card h4{
+  color:white;
+  font-family: Roboto;
+}
+
+ .episodes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.responsive-imgage{
+  width: 100%;
+}
