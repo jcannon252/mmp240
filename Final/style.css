@@ -20,6 +20,11 @@ p, h1, h2,h3,nav, article{
  color:#080726;
 }
 
+h1{
+  border: solid 8px;
+  background-color: #080726;
+}
+
 h2{
  position:relative;
  color:#0554F2;
